@@ -1,0 +1,51 @@
+.card-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+    margin: 1rem; /* Add margin to ensure spacing between cards */
+  }
+  
+  .card-img-top {
+    height: 300px !important;
+    object-fit: cover;
+  }
+  
+  .card-page .card-name-price {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-page .card-price {
+    color: green;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    border-radius: 0;
+    width: auto; /* Change to auto to avoid full width */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0.25rem 0; 
+  }
+  
+  .card-page .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .card-page .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .card-name-price button {
+    flex: 1; 
+    margin: 0.5rem; 
+  }
+  
